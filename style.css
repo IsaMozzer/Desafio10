@@ -1,0 +1,158 @@
+@font-face {
+    font-family:android;
+    src: url(./fontes/idroid.otf);  
+}
+
+@font-face {
+    font-family: coolvetica; 
+    src: url(./fontes/Coolvetica\ Rg\ Cram.otf);  
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #69ca93;
+}
+
+h1{
+    font-family: android;
+    font-weight: 500;
+    color: #326c4d;
+    margin-top: 0;
+    padding-right: 500px;
+    white-space: nowrap;
+    padding-top: 20px;
+}
+
+.subtitulo2{
+    display: inline-block; 
+    padding: 5px;
+    background: linear-gradient(to right, #69ca9359, white); 
+    color: #326c4d;
+    font-family: android;
+    padding-right: 800px;
+    white-space: nowrap;
+
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    text-indent: 30px;
+
+}  
+
+header{   
+    padding-bottom: 10px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+nav > ul > li{  
+    color: white;
+    align-items: center;  
+}
+
+ul{
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+li{
+    padding-left: 10px;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+iframe{
+    justify-content: center;
+    padding-top: 30px;
+    height: 500px;
+    width: 1100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.principal{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 1200px;
+    height: 2700px;
+    margin: auto;
+}
+
+.topo{
+    background: linear-gradient(to bottom, #1FFA8E, #3CD187, #387556);
+    padding: 0px 40px 10px 40px;
+   }
+
+.mais{
+    margin-left: 100px;
+    background-color: #c5ebd6;
+    width: 1000px;
+    height: 430px;   
+}
+
+.mais > h2{
+    padding: 10px 10px 0px 10px;
+    text-align: left;
+    height: 40px;   
+    color: white;
+    background-color: #2fa866;
+}
+
+.irina{
+    height: 340px;   
+}
+
+.video{
+    background-color: #1a5c38;
+    height: 565px;
+}
+
+#titulo{
+    margin-left: 500px;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-family: coolvetica;
+    letter-spacing: 6px;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+}
+
+#linkirina{
+    text-decoration: none;
+    color: #1a5c38;
+}
+
+#subtitulo{
+    margin-left: 650px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    font-weight: 400;
+    }
+    
+#ul2 {
+    margin-left: 230px;
+    display: flex;
+    flex-wrap: wrap; //quebra para uma nova linha
+    justify-content: space-between;
+    padding: 0;
+}
+
+#ul2 li{
+    text-align: justify;
+    width: 48%; // didive em 2 colunas
+    margin-bottom: 5px;
+}
+
+.destaque{
+    color: #1a5c38;
+    font-weight: bold;
+}
